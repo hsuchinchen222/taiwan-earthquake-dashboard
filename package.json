@@ -1,0 +1,23 @@
+{
+  "name": "taiwan-earthquake-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "check:data": "python3 scripts/check-data.py"
+  },
+  "dependencies": {
+    "@tabler/icons-react": "^3.36.0",
+    "echarts": "^6.1.0",
+    "papaparse": "^5.5.3",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "vite": "^8.3.1"
+  }
+}
